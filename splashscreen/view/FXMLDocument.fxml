@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="849.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="449.0" fitWidth="856.0" layoutX="-7.0" layoutY="-7.0">
+         <image>
+            <Image url="@../asserts/IntelliJ-IDEA_How2Pro_Blog.png" />
+         </image>
+      </ImageView>
+      <ProgressBar fx:id="prograssBar" layoutX="404.0" layoutY="345.0" prefHeight="22.0" prefWidth="235.0" progress="0.0" />
+      <ProgressIndicator fx:id="prograssind" layoutX="651.0" layoutY="348.0" prefHeight="34.0" prefWidth="22.0" progress="0.0" />
+      <ImageView fitHeight="90.0" fitWidth="121.0" layoutX="729.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/zl48EuhC_400x400.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
